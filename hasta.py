@@ -44,7 +44,6 @@ class Hasta:
         self.__tedavi = tedavi
 
     def tedavi_suresi_hesapla(self):
-        # Örneğin tedavi süresi hesaplama
         return len(self.__tedavi)
 
     def __str__(self):
