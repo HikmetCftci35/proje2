@@ -48,7 +48,7 @@ def main():
             print(personel)
 
         #Doğum tarihi 2000 üstü olan hastalar
-        yeni_dogumlu_hastalar = [hasta for hasta in hastalar if int(hasta.get_dogum_tarihi().split("-")[0])>= 2000]
+        yeni_dogumlu_hastalar = [hasta for hasta in hastalar if int(hasta.get_dogum_tarihi().split("-")[2])>= 2000]
         print("2000 ve sonrası doğumlu hastalar: ")
         for hasta in yeni_dogumlu_hastalar:
             print(hasta)
